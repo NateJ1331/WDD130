@@ -16,4 +16,38 @@ a:hover {
 
 img {
     width: 80%;
+    display: block;
+    margin: 0 auto;
 }
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
+    color: white;
+}
+
+/* body {
+
+    text-align: center;
+} */
+
+/* * {
+    border: 2px solid blue;
+} */
