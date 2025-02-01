@@ -2,8 +2,9 @@
     margin: 0 auto;
 }
 
-#backround{
-    height: 725px; 
+#background{
+    height: 725px;
+    background-color: white;
 }
 
 nav {
@@ -59,10 +60,6 @@ nav a:hover{
 
 .book:hover, .join:hover{
     background-color: #02C39A;
-}
-
-#background{
-    background-color: white;
 }
 
 .msg{
