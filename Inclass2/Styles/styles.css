@@ -1,0 +1,19 @@
+body {
+    margin: 0 ;
+}
+
+.dark_background {
+  background-color: #737373;
+  margin: 0;
+}
+
+.images img {
+    width: 20%;
+    margin: 5%;
+    border: 20PX solid #414141;
+    border-radius: 50%;
+}
+
+.images {
+    text-align: center; 
+}
