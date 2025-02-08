@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap');
+
+:root {
+     /* change the values below to your chosen font(s) */
+    --heading-font: "Bebas Neue";
+    --paragraph-font: "Asap", "Helvetica", "sans-serif";
+}
+
+.logo{
+    margin-bottom: 50px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.home-title{
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.book, .join{
+    background-color: #036b79;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.mountains{
+    text-align: center;
+}
+
+.book:hover, .join:hover{
+    background-color: #02C39A;
+}
+
+.msg{
+    background-color: #036b79;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card,.camping-card,.rapids-card{
+    margin: 200px 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
 #content{
     margin: 0 auto;
 }
@@ -7,17 +77,17 @@
     background-color: white;
 }
 
-nav {
-    text-align: center;
-}
-
 #hero-box{
     margin: 0 auto;
     text-align: center;  
 }
 
-.icon {
-    width: 80px;
+nav {
+    text-align: center;
+}
+
+nav a{
+    padding: 35px;
 }
 
 nav a,.book, .join, footer a{
@@ -26,24 +96,20 @@ nav a,.book, .join, footer a{
     text-decoration: none;
 }    
              
-.mountains{
-    text-align: center;
-}
-
-#hero-msg h1, #hero-msg h4{
-    text-align: center;
-}
-
-.button-box{
-    text-align: center;
-}
-
 main section{
     text-align: center;
 }
 
 body{
+    font-family: var(--paragraph-font);
     background-color: #05668D;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header{
@@ -54,20 +120,14 @@ nav a:hover{
     background-color: #00A896;
 }
 
-.book, .join{
-    background-color: #036b79;
-}
-
-.book:hover, .join:hover{
-    background-color: #02C39A;
-}
-
-.msg{
-    background-color: #036b79;
-}
-
 footer{
     background-color: #036b79;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
