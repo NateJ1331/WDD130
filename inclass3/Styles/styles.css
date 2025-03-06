@@ -1,0 +1,45 @@
+
+
+
+h1 {
+    font-size: 12px;
+}
+
+#Post {
+    font-size: 30px;
+}
+
+#main{
+    text-align: center;
+    width: 301px;
+    margin: 0 auto;
+}
+
+#bottom{
+    display: grid;
+    width: 301px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(74, 74, 231);
+    color: white;
+    
+}
+
+#read,#views,#comments{
+    border: solid .5px rgb(255, 255, 255);
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+
+#read{
+    grid-column: 1;
+}
+
+#views{
+    grid-column: 2;
+}
+
+#comments{
+    grid-column: 3;
+}
